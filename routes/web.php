@@ -25,4 +25,7 @@ Route::get('/about', function () {
 Route::get('/feedback', [FeedbackController::class, 'create']);
 Route::post('/feedback/send', [FeedbackController::class, 'send']);
 
-// Create additional Routes below
+// Success page route
+Route::get('/feedback/success', function () {
+    return 'Feedback sent successfully!';
+});

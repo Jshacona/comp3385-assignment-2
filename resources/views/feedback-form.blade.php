@@ -14,8 +14,8 @@
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="mb-3">
-                <label for="message" class="form-label">Comments <span style="color: red;">(Required)</span></label>
-                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                <label for="comment" class="form-label">Comments <span style="color: red;">(Required)</span></label>
+                <textarea class="form-control" id="comment" name="comment" rows="4" required></textarea>
             </div>
             <p>Let us know what you think of our website.</p>
             <button type="submit" class="btn btn-primary">Submit</button>
